@@ -44,7 +44,7 @@
         <td><img src="screenshots/Screenshot_21.png" width="160" /></td>
         <td><img src="screenshots/Screenshot_22.png" width="160" /></td>
         <td><img src="screenshots/Screenshot_23.png" width="160" /></td>
-      
+        <td><img src="screenshots/Screenshot_1.png" width="160" /></td>
     </tr>
 </table>
 </p>
