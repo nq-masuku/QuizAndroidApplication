@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="activity_horizontal_margin">14dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dialog_margin" tools:keep="@dimen/dialog_margin">24dp</dimen>
+    <dimen name="app_bar_height" tools:keep="@dimen/app_bar_height">0dp</dimen>
+    <dimen name="activity_horizontal_margin_32dp">32dp</dimen>
+    <dimen name="activity_horizontal_margin_64dp" tools:keep="@dimen/activity_horizontal_margin_64dp">
+        64dp
+    </dimen>
+    <dimen name="vertical_margin_8">8dp</dimen>
+    <dimen name="horizontal_margin_8">8dp</dimen>
+    <dimen name="horizontal_margin_3">3dp</dimen>
+    <dimen name="vertical_margin_4">4dp</dimen>
+    <dimen name="vertical_margin_12">12dp</dimen>
+    <dimen name="tablet_btn_horizontal_300" tools:keep="@dimen/tablet_btn_horizontal_300">300dp
+    </dimen>
+    <dimen name="horizontal_20" tools:keep="@dimen/horizontal_20">20dp</dimen>
+
+    <dimen name="table_view_cell_height" tools:keep="@dimen/table_view_cell_height">28dp</dimen>
+    <dimen name="table_view_row_header_width" tools:keep="@dimen/table_view_row_header_width">28dp
+    </dimen>
+    <dimen name="table_view_default_text_size" tools:keep="@dimen/table_view_default_text_size">
+        11sp
+    </dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fragment_horizontal_margin">16dp</dimen>
+    <dimen name="fragment_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="textsize1">7sp</dimen>
+    <dimen name="textsize2">22sp</dimen>
+
+</resources>

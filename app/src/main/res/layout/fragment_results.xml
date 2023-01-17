@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".ResultsFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:weightSum="6"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/retry"
+            android:layout_width="0dp"
+            android:layout_weight="2.9"
+            app:strokeColor="@color/white"
+            android:backgroundTint="@color/back"
+            app:strokeWidth="0.3dp"
+            android:layout_height="wrap_content"
+            android:text="TRY AGAIN" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.2"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:id="@+id/analyses"
+            android:layout_width="0dp"
+            android:layout_weight="2.9"
+            app:strokeColor="@color/white"
+            android:backgroundTint="@color/back"
+            app:strokeWidth="0.3dp"
+            android:layout_height="wrap_content"
+            android:text="Results Analyses" />
+
+
+    </LinearLayout>
+
+
+
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        android:text="Your Score"
+        android:textColor="#FFFFFF"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/totalQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Questions: 15"
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="7dp"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/correctA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Correct Answers(Score): "
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="7dp"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/wrongA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wrong Answers: "
+        android:layout_marginRight="18dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="7dp"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Score is: "
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="16dp"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp" />
+
+</LinearLayout>

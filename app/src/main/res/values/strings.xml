@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">QuizApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="mobileDP">Mobile Device Programming</string>
+    <string name="todayQuiz">Today\'s Quiz on</string>
+    <string name="content">CS 473 Final Quiz</string>
+
+    <string-array name="quiz_details">
+        <item>Which JetPack components category involves the following: 1.View Model 2.LiveData 3.Room 4.Navigation?,Behaviour,UI,Architecture,Foundation,Architecture</item>
+        <item>Some of Android features,Open Source,Compatibility,Technology Support,Both A and C,Both A and C</item>
+        <item>Is one of 3 key parts of the navigation component,Navigation drawer,NavHostFragment,Navigation args,All of the Above,NavHostFragment</item>
+        <item>Which of the following kernel is used in Android,Mac,Linux,Windows,Redhat,Linux</item>
+        <item>What does the .apk stands for?,Application Kernel,Android Phone Kit,Android Page Kit,Application Package,Application Package</item>
+        <item>Data classes cannot be,Abstract,Open,Sealed,All of the Above,All of the Above</item>
+        <item>Is one of the states of an Activity in Android,Foreground,onCreate,onStop,onStart,Foreground</item>
+        <item>For which of the following is Android mainly developed?,Desktops,Laptops,Mobile Devices,Servers,Mobile Devices</item>
+        <item>Which one is not a nickname of Android?,Donut,Muffin,Cupcake,Lollipop,Muffin</item>
+        <item>Android sizes fonts of mobile using ____ measurement,DP,SP,PX,PS,SP</item>
+        <item>An open source standalone database,BackupHelper,SQLite,NetworkInfo,FileDb,SQLite</item>
+        <item>The Java byte code is compiled into ____ when developing for the Android OS,Java Source Code,Dalvik Byte code,Dalvik Application Code,Kotlin Code,Dalvik Byte code</item>
+        <item>If permissions are missing the app will\n get this at runtime,Security Exception,NullPointerException,FileNotFoundException,ClassCastException,Security Exception</item>
+        <item>Sharing of data in Android is done via?,Data class,Service Content Provider,Activity,Broadcast,Service Content Provider</item>
+        <item>What does ADB stands for?,App Delete Bridge,App Destroy,Android Debug Bridge,Android Delete Bridge,Android Debug Bridge</item>
+    </string-array>
+</resources>

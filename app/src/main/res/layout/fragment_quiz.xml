@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/back"
+    tools:context=".QuizFragment">
+
+    <LinearLayout
+        android:id="@+id/layout0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="true"
+        android:weightSum="6"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="16dp"
+            android:layout_weight="1.3"
+            android:backgroundTint="@color/back"
+            android:text="Home"
+            android:textSize="14sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.3dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_weight="1.3"
+            android:backgroundTint="@color/back"
+            android:text="Skip"
+            android:textSize="14sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.3dp" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="30dp"/>
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="43dp"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1.3"
+            android:backgroundTint="@color/back"
+            android:text="Next"
+            android:textSize="14sp"
+            app:strokeColor="@color/white"
+            app:strokeWidth="0.3dp" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="48dp"
+        android:gravity="center"
+        android:text="Questions"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/progress"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="18dp"
+        android:gravity="center"
+        android:text="3/3"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        app:cardCornerRadius="14dp"
+        app:cardElevation="22dp">
+
+
+        <LinearLayout
+            android:id="@+id/layout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="60dp"
+            android:focusable="true"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/counter"
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="18dp"
+                android:text="1."
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/question"
+                android:layout_width="365dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginRight="6dp"
+                android:layout_marginBottom="39dp"
+                android:text="Question loading..."
+                android:textColor="@color/black"
+                android:textSize="19sp"
+                />
+
+
+            <Button
+                android:id="@+id/ans1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/white"
+                android:text="A."
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:strokeWidth="0.6dp" />
+
+
+            <Button
+                android:id="@+id/ans2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/white"
+                android:text="B."
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:strokeWidth="0.6dp" />
+
+
+            <Button
+                android:id="@+id/ans3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/white"
+                android:text="C."
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:strokeWidth="0.6dp" />
+
+
+            <Button
+                android:id="@+id/ans4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:backgroundTint="@color/white"
+                android:text="D."
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                app:strokeWidth="0.6dp" />
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
