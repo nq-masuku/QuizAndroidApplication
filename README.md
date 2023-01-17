@@ -6,7 +6,6 @@
 
 <hr/>
 
-<h2>Assignment 7</h2>
 <p align="center">
 <table border="0">
       <tr>
